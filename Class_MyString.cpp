@@ -31,10 +31,10 @@ public:
 
 	// к о н с т р у к т о р  с  п а р а м е т р а м и
 	// при создании объекта класса необходимо передать строку которую он будет хранить
-	MyString(char* str)						//  C2664 - VS2019
+	MyString(char* str)				//  C2664 - VS2019
 	{
 
-		length = strlen(str);				// функция strlen получает количество символов в строке которую мы передаём в объект
+		length = strlen(str);			// функция strlen получает количество символов в строке которую мы передаём в объект
 
 		// выделяем память для динамического массива где будет храниться наша строка 
 		// +1 символ так как нужно место в массиве под терминирующий 0
@@ -192,7 +192,7 @@ private:
 
 
 /***********************
-		  MAIN
+           MAIN
 ************************/
 int main()
 {
@@ -201,7 +201,7 @@ int main()
 	cout << "*********************************************\n" << endl;
 	MyString str1((char*) " Hello");					// C2664 - correct (char*)
 	MyString str2((char*) " World!");					// C2664 - correct (char*)
-	MyString str3((char*) "\t - My String Class");		// C2664 - correct (char*)
+	MyString str3((char*) "\t - My String Class");				// C2664 - correct (char*)
 	MyString result;
 
 	result = str1 + str2 + str3;

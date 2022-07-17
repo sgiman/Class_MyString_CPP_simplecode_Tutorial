@@ -8,6 +8,7 @@ Class MyString C++ (correct error C2664). Stream #simplecode "Свой клас�
 
 "#C Основы c++ для начинающих. Свой класс string. | Stream"  
 Класс "MyString":
+
 https://www.youtube.com/watch?v=Y3GGqqXlPQI&list=PLQOaTSbfxUtCw_ms8UJk5Dibdocup2eDa
 
 --------------------------------------------------------------------------------------

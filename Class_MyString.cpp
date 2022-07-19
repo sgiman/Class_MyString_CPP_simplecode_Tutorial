@@ -199,9 +199,9 @@ int main()
 	setlocale(LC_ALL, "ru");
 
 	cout << "*********************************************\n" << endl;
-	MyString str1((char*) " Hello");					// C2664 - correct (char*)
-	MyString str2((char*) " World!");					// C2664 - correct (char*)
-	MyString str3((char*) "\t - My String Class");				// C2664 - correct (char*)
+	MyString str1((char*) " Hello");					// C2664 - correct (char*)!
+	MyString str2((char*) " World!");					// C2664 - correct (char*)!
+	MyString str3((char*) "\t - My String Class");				// C2664 - correct (char*)!
 	MyString result;
 
 	result = str1 + str2 + str3;

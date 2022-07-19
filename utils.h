@@ -45,7 +45,7 @@ void MyDate()
 ------------------------------*/
 void FillArray(int* const arr, const int size, const int max)
 {
-	srand(time(NULL));							// уcтановить счётчик для rand() 
+	srand((unsigned)time(NULL));							// уcтановить счётчик для rand() 
 	for (int i = 0; i < size; i++)
 	{
 		arr[i] = rand() % max;					// 1..max

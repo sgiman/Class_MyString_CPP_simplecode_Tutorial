@@ -14,8 +14,8 @@
 
 using namespace std;
 
-/*------------------
-	   MyDate
+/*-----------------
+       MyDate
 -------------------*/
 // For current Date
 struct tm newtime;

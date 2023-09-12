@@ -6,8 +6,8 @@ Class MyString C++ (correct error C2664 / VS2019). Stream #simplecode "Свой 
 
 ---------------------------------------------------------------------------------------
 
-## C Основы c++ для начинающих. Свой класс string. | Stream ##
-Класс "MyString":
+## C++ Basics for Beginners. Your own string class. | Stream ##
+Class "MyString":
 
 https://www.youtube.com/watch?v=Y3GGqqXlPQI&list=PLQOaTSbfxUtCw_ms8UJk5Dibdocup2eDa
 
